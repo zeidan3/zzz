@@ -1,0 +1,30 @@
+<link rel="manifest" href="manifest.json">
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الأسئلة والأجوبة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>منصة الأسئلة والأجوبة</h1>
+        </div>
+
+        <div class="question-box">
+            <p><strong>السؤال:</strong> ما هي عاصمة فرنسا؟</p>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="answerInput" placeholder="اكتب إجابتك هنا...">
+            <button onclick="checkAnswer()">إرسال الإجابة</button>
+        </div>
+
+        <div class="answer" id="answerDisplay" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
